@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nancy for Rosemead</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body>
-
-<%= yield %>
+  <div class="container-fluid" id="home">
+    <div class="row masterbar">
+      <div class="col-xl-1 col-lg-1 col-md-1 hidden-sm hidden-xs hbar"></div>
+      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-xs-5 hlogo">
+        <%= image_tag "n4rmed.jpg" %>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-xs-7 hbar">
+        <div class="navbar-collapse collapse">
+          <ul class="links">
+            <li>About</li>
+            <li>Endorsements</li>
+            <li>Contact</li>
+            <li>Donations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <%= yield %>
+  </div>
 
   <footer>
     &copy; 2018 Nancy For Rosemead
