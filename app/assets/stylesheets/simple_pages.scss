@@ -1,6 +1,12 @@
 // Place all the styles related to the simple_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet');
+
+body {
+    font-family: 'Old Standard TT', serif;
+}
+
 
 .masterbar {
     background-image: url(/assets/clock.jpg);
@@ -24,6 +30,7 @@
     width: 100%;
     background-color: #0e1661;
     margin: 0;
+    z-index: 999;
 }
 
 .hlogo {
@@ -54,8 +61,62 @@ ul {
     vertical-align: middle;
 }
 
-li {
+.expo {
     display: inline;
+    padding-right: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: #b30000;
+    cursor: pointer;
+}
+
+.links {
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+i {
+    padding-right: 20px;
+}
+
+i:hover {
+    padding-right: 20px;
+    color: #b30000;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+  padding-top: 10px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  color: #b30000;
+}
+
+ul li ul li {
+  background-color: #0e1661;
+  clear: both;
+  width: 100%;
+  padding-right: 10px;
 }
 
 h2 {
@@ -88,4 +149,9 @@ h3 {
 
 .redrow {
     background-color: #b30000;
+}
+
+footer {
+    font-family: 'Old Standard TT', serif;
+    padding-left: 10px;
 }
