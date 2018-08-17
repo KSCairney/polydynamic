@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'simple_pages/index'
   
+  post 'simple_pages/thank_you'
+  
   root 'simple_pages#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
