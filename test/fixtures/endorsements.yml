@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  descriptor: MyString
+  endorsement_message: MyText
+  approved: false
+
+two:
+  name: MyString
+  descriptor: MyString
+  endorsement_message: MyText
+  approved: false

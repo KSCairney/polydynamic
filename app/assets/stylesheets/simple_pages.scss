@@ -79,6 +79,7 @@ li a:hover{
     text-decoration: none;
     color: #b30000;
     cursor: pointer;
+    background-color: #0e1661;
 }
 
 .links {
@@ -116,7 +117,7 @@ ul li ul li {
   background-color: #0e1661;
   clear: both;
   width: 100%;
-  padding-right: 10px;
+  padding: 10px 10px 5px 0px;
 }
 
 h2 {
@@ -130,6 +131,17 @@ h2 {
 h3 {
     font-family: 'Old Standard TT', serif;
     color: #b30000;
+    padding-bottom: 20px;
+    font-size: 2.4em;
+}
+
+.cntrtitle {
+    text-align: center;
+    margin: auto;
+    font-family: 'Old Standard TT', serif;
+    color: #b30000;
+    padding-bottom: 20px;
+    font-size: 2.4em;
 }
 
 .quote {
@@ -151,7 +163,29 @@ h3 {
     background-color: #b30000;
 }
 
+#endo a {
+    background-color: #b30000;
+    color: white;
+    padding: 10px;
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1.6em;
+}
+
+#endo a:hover {
+    background-color: #0e1661;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#endo {
+    text-align: center;
+    margin: auto;
+}
+
 footer {
     font-family: 'Old Standard TT', serif;
     padding-left: 10px;
+    margin-top: 20px;
 }

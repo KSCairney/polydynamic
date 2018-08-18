@@ -1,0 +1,37 @@
+<%= form_for(endorsement) do |f| %>
+  <% if endorsement.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(endorsement.errors.count, "error") %> prohibited this endorsement from being saved:</h2>
+
+      <ul>
+      <% endorsement.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :descriptor %>
+    <%= f.text_field :descriptor %>
+  </div>
+
+  <div class="field">
+    <%= f.label :endorsement_message %>
+    <%= f.text_area :endorsement_message %>
+  </div>
+
+  <div class="field">
+    <%= f.label :approved %>
+    <%= f.check_box :approved %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

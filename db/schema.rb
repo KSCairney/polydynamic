@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180818162925) do
+ActiveRecord::Schema.define(version: 20180818164930) do
+
+  create_table "endorsements", force: :cascade do |t|
+    t.string   "name"
+    t.string   "descriptor"
+    t.text     "endorsement_message"
+    t.boolean  "approved"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "first_name"

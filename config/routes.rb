@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :endorsements
   devise_for :users
   resources :users
   get 'simple_pages/thank_you'
