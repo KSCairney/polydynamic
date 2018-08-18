@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet');
+/* line 6, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+body {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 11, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.masterbar {
+  background-image: url(/assets/clockshort.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* line 20, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.indexbar {
+  background-image: url(/assets/clockshort.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* line 29, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hlogo img {
+  width: 100%;
+  background-color: #0e1661;
+  margin: 0;
+  z-index: 999;
+}
+
+/* line 36, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hlogo {
+  padding: 0px;
+  margin: 0;
+}
+
+/* line 41, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hbar {
+  background-color: #0e1661;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 48, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.masterbar div {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 53, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 0;
+  color: white;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.4em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+/* line 64, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.expo {
+  display: inline;
+  padding-right: 10px;
+}
+
+/* line 69, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li {
+  cursor: pointer;
+}
+
+/* line 73, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 78, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li a:hover {
+  text-decoration: none;
+  color: #b30000;
+  cursor: pointer;
+}
+
+/* line 84, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.links {
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+
+/* line 89, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+i {
+  padding-right: 20px;
+}
+
+/* line 93, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+i:hover {
+  padding-right: 20px;
+  color: #b30000;
+}
+
+/* line 98, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+  padding-top: 10px;
+}
+
+/* line 107, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  color: #b30000;
+}
+
+/* line 115, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li ul li {
+  background-color: #0e1661;
+  clear: both;
+  width: 100%;
+  padding-right: 10px;
+}
+
+/* line 122, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+h2 {
+  font-family: 'Old Standard TT', serif;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 130, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+h3 {
+  font-family: 'Old Standard TT', serif;
+  color: #b30000;
+}
+
+/* line 135, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.quote {
+  font-family: 'Old Standard TT', serif;
+  color: #0e1661;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 142, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.quoter {
+  text-align: right;
+  margin: auto;
+  color: #b30000;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+/* line 150, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.redrow {
+  background-color: #b30000;
+}
+
+/* line 154, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+footer {
+  font-family: 'Old Standard TT', serif;
+  padding-left: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
