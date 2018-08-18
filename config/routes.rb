@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  resources :users
   get 'simple_pages/thank_you'
 
   get 'simple_pages/about'
