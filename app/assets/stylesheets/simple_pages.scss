@@ -25,7 +25,7 @@ body {
     width: 100%;
     background-color: white;
     margin: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .hlogo {
@@ -98,6 +98,8 @@ ul li ul {
   left: 0;
   display: none;
   padding-top: 10px;
+  z-index: 9997;
+  position: relative !important;
 }
 
 ul li:hover > ul,
@@ -113,6 +115,7 @@ ul li ul li {
   clear: both;
   width: 100%;
   padding: 10px 10px 5px 0px;
+  z-index: 9998;
 }
 
 #tagline {
