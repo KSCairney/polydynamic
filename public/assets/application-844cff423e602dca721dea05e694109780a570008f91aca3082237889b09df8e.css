@@ -1,0 +1,335 @@
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* line 17, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 30, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 36, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 52, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 56, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 62, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 70, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 81, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 87, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+@import url('href="https://fonts.googleapis.com/css?family=PT+Sans:700,700i' rel="stylesheet");
+/* line 6, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+body {
+  font-family: 'Old Standard TT', serif;
+}
+
+/* line 11, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.masterbar {
+  background-size: cover;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.indexbar {
+  background-image: url(/assets/clockshort.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* line 24, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hlogo img {
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  z-index: 999;
+}
+
+/* line 31, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hlogo {
+  padding: 0px;
+  margin: 0;
+}
+
+/* line 36, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.hbar {
+  background-color: white;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.masterbar div {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 48, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 45px 0;
+  color: #0e1661;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.4em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+/* line 59, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.expo {
+  display: inline;
+  padding-right: 10px;
+}
+
+/* line 64, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li {
+  cursor: pointer;
+}
+
+/* line 68, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li a {
+  text-decoration: none;
+  color: #0e1661;
+}
+
+/* line 73, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+li a:hover {
+  text-decoration: none;
+  color: #b30000;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* line 80, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.links {
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+
+/* line 85, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+i {
+  padding-right: 20px;
+}
+
+/* line 89, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+i:hover {
+  padding-right: 20px;
+  color: #b30000;
+}
+
+/* line 94, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+  padding-top: 10px;
+}
+
+/* line 103, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  color: #b30000;
+}
+
+/* line 111, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+ul li ul li {
+  background-color: white;
+  clear: both;
+  width: 100%;
+  padding: 10px 10px 5px 0px;
+}
+
+/* line 118, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#tagline {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* line 126, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.ttl {
+  font-family: 'PT Sans', sans-serif;
+  color: #b30000;
+  padding-bottom: 20px;
+  font-size: 2.4em;
+}
+
+/* line 134, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.cntrtitle {
+  text-align: center;
+  margin: auto;
+  font-family: 'PT Sans', sans-serif;
+  color: #b30000;
+  padding-bottom: 20px;
+  font-size: 2.4em;
+}
+
+/* line 143, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.formstuff {
+  text-align: left;
+}
+
+/* line 147, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.quote {
+  font-family: 'PT Sans', sans-serif;
+  color: #0e1661;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 154, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.quoter {
+  text-align: right;
+  margin: auto;
+  color: #b30000;
+  font-size: 1.0em;
+  font-style: italic;
+}
+
+/* line 162, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.redrow {
+  background-color: #b30000;
+}
+
+/* line 166, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+.item img {
+  text-align: center;
+  margin: auto;
+}
+
+/* line 171, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#endo a {
+  background-color: #b30000;
+  color: white;
+  padding: 10px;
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  font-size: 1.6em;
+}
+
+/* line 180, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#endo a:hover {
+  background-color: #0e1661;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 187, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+#endo {
+  text-align: center;
+  margin: auto;
+}
+
+/* line 192, /home/ubuntu/workspace/app/assets/stylesheets/simple_pages.scss */
+footer {
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
