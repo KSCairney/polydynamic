@@ -1,10 +1,10 @@
-<h3 class="ttl">Contact</h3>
+<h3 class="ttl cntr">Contact</h3>
 
 <%= flash[:notice] %>
-
-<%= form_tag('/simple_pages/thank_you') do %>
-    <div class="row">
-        <div class="col-md-4">
+<div class="row">
+    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-11 col-xs-11">
+        <%= form_tag('/simple_pages/thank_you') do %>
             <div class="form-group">
                 <%= label_tag :name %>
                 <%= text_field_tag(:name, nil, class: "form-control", placeholder: "Enter Name", required: "required") %>
@@ -21,7 +21,12 @@
                 <%= label_tag :message, "Message" %>
                 <%= text_area_tag(:message, nil, size: '40', class: "form-control", placeholder: "Enter Message", required: "required") %>
             </div>
-        </div>
+            <%= submit_tag "Send" %>
+        <% end %>
     </div>
-    <%= submit_tag "Send" %>
-<% end %>
+    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-11 col-xs-11 contstuff">
+        <p><i class="fas fa-mobile-alt"></i> (626)833-6820</p>
+        <p><i class="far fa-envelope"></i> P.O. Box 115, Rosemead, CA  91770</p>
+    </div>
+</div>

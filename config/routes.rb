@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'simple_pages/donations'
+
   resources :endorsements
   devise_for :users
   resources :users

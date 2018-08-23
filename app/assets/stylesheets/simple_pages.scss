@@ -128,9 +128,14 @@ ul li ul li {
 
 .ttl {
     font-family: 'PT Sans', sans-serif;
-    color: #b30000;
+    color: #0e1661;
     padding-bottom: 20px;
     font-size: 2.4em;
+}
+
+.cntr {
+    text-align: center;
+    margin: auto;
 }
 
 
@@ -163,12 +168,30 @@ ul li ul li {
 }
 
 .redrow {
-    background-color: #b30000;
+    background-color: #0e1661;
 }
 
 .item img {
     text-align:center;
     margin:auto;
+}
+
+.justice p {
+    text-align: justify;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.contstuff p i {
+    font-size: 1.6em;
+    padding-top: 10px;
+}
+
+.contstuff p {
+    font-size: 1.2em;
+    padding-bottom: 10px;
 }
 
 #endo a {

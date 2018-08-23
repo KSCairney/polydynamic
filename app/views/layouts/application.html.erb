@@ -17,17 +17,17 @@
   <div class="container-fluid" id="home">
     <div class="row masterbar">
       <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 hidden-xs hbar"></div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-5 col-xs-7 hlogo">
-        <%= image_tag "logo.JPG" %>
+      <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5 col-xs-7 hlogo">
+        <%= image_tag "signnarrow.jpg" %>
       </div>
-      <div class="col-xl-8 col-lg-8 col-md-8 hidden-sm hidden-xs hbar">
+      <div class="col-xl-9 col-lg-8 col-md-8 hidden-sm hidden-xs hbar">
         <div class="navbar-collapse collapse" id="collapsibleNavbar">
           <ul class="links">
             <li class="expo"><%= link_to "Home", simple_pages_index_path %></li>
             <li class="expo"><%= link_to "About", simple_pages_about_path %></li>
             <li class="expo"><%= link_to "Endorsements", endorsements_path %></li>
             <li class="expo"><%= link_to "Contact", simple_pages_contact_path %></li>
-            <li class="expo"><a>Donations</a></li>
+            <li class="expo"><%= link_to "Donations", simple_pages_donations_path %></li>
           </ul>
         </div>
       </div>
@@ -39,7 +39,7 @@
               <li><%= link_to "About", simple_pages_about_path %></li>
               <li><%= link_to "Endorsements", endorsements_path %></li>
               <li><%= link_to "Contact", simple_pages_contact_path %></li>
-              <li><a>Donations</a></li>
+              <li><%= link_to "Donations", simple_pages_donations_path %></li>
             </ul></li>
         </ul>
       </div>
